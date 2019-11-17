@@ -2,6 +2,10 @@ package team.dexter.CodeReviewerCommons.dtos;
 
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonInclude.Include;
+
+@JsonInclude(Include.NON_NULL)
 public class RevieweeCodeDto {
 
 	private String id;
@@ -9,6 +13,7 @@ public class RevieweeCodeDto {
 	private String title;
 	private String code;
 	private List<String> tags;
+	private List<FeedbackDto> feedbacks;
 
 	public String getId() {
 		return id;
@@ -48,6 +53,14 @@ public class RevieweeCodeDto {
 
 	public void setTags(List<String> tags) {
 		this.tags = tags;
+	}
+
+	public List<FeedbackDto> getFeedbacks() {
+		return feedbacks;
+	}
+
+	public void setFeedbacks(List<FeedbackDto> feedbacks) {
+		this.feedbacks = feedbacks;
 	}
 
 }
