@@ -5,11 +5,11 @@ public class FeedbackDto {
 	private String feedbackBy;
 	private String comment;
 
-	public String getFeebackBy() {
+	public String getFeedbackBy() {
 		return feedbackBy;
 	}
 
-	public void setFeebackBy(String feebackBy) {
+	public void setFeedbackBy(String feebackBy) {
 		this.feedbackBy = feebackBy;
 	}
 
