@@ -2,15 +2,15 @@ package team.dexter.CodeReviewerCommons.dtos;
 
 public class FeedbackDto {
 
-	private String feebackBy;
+	private String feedbackBy;
 	private String comment;
 
-	public String getFeebackBy() {
-		return feebackBy;
+	public String getFeedbackBy() {
+		return feedbackBy;
 	}
 
-	public void setFeebackBy(String feebackBy) {
-		this.feebackBy = feebackBy;
+	public void setFeedbackBy(String feebackBy) {
+		this.feedbackBy = feebackBy;
 	}
 
 	public String getComment() {
