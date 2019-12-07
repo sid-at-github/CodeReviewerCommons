@@ -9,8 +9,8 @@ public class FeedbackDto {
 		return feedbackBy;
 	}
 
-	public void setFeedbackBy(String feebackBy) {
-		this.feedbackBy = feebackBy;
+	public void setFeedbackBy(String feedbackBy) {
+		this.feedbackBy = feedbackBy;
 	}
 
 	public String getComment() {
